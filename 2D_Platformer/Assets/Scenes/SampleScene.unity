@@ -1500,8 +1500,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.23, y: 0.13}
-    newSize: {x: 0.7, y: 0.48}
+    oldSize: {x: 0.95, y: 0.625}
+    newSize: {x: 0.92, y: 0.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1545,7 +1545,7 @@ Animator:
   m_GameObject: {fileID: 1620748624}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 62e127e40ed9448338f1af574e1d2330, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3c942f8ebe25c40ba875473decdd9170, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1601,12 +1601,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -728797312652332229, guid: 6800b475dabbb48068f358293a69e1c5, type: 3}
+  m_Sprite: {fileID: -8941771938360090373, guid: 06330b15cc7c9495b995fe14ce46f655, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.7, y: 0.48}
+  m_Size: {x: 0.92, y: 0.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1622,7 +1622,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.2975, y: -0.9302, z: 0}
-  m_LocalScale: {x: 2.1871, y: 2.2638, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
