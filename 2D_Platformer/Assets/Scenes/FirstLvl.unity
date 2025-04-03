@@ -575,8 +575,8 @@ Transform:
   m_GameObject: {fileID: 186059808}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.25, y: -3.67, z: 0}
-  m_LocalScale: {x: 137.92348, y: 3.1064029, z: 1}
+  m_LocalPosition: {x: 12.3227, y: -3.67, z: 0}
+  m_LocalScale: {x: 288.83023, y: 3.1064029, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1906,7 +1906,7 @@ GameObject:
   - component: {fileID: 1361084753}
   - component: {fileID: 1361084752}
   - component: {fileID: 1361084755}
-  - component: {fileID: 1361084754}
+  - component: {fileID: 1361084756}
   m_Layer: 0
   m_Name: golden-cup-or-trophy-game-interface-and-ui-icon-vector_0
   m_TagString: Untagged
@@ -1978,24 +1978,12 @@ Transform:
   m_GameObject: {fileID: 1361084751}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.48, y: 3.39, z: 0}
+  m_LocalPosition: {x: 10.49, y: 3.42, z: 0}
   m_LocalScale: {x: 0.108089186, y: 0.09748896, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1361084754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361084751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea85dd8ab0aac48a1b21bac2d81fe015, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1361084755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2042,6 +2030,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 9.79, y: 9.8}
   m_EdgeRadius: 0
+--- !u!114 &1361084756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361084751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea85dd8ab0aac48a1b21bac2d81fe015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: {fileID: 102900000, guid: 38067fad6f7d941cdaf7e550d3268499, type: 3}
 --- !u!1 &1449724007
 GameObject:
   m_ObjectHideFlags: 0
@@ -2581,6 +2582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea85dd8ab0aac48a1b21bac2d81fe015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: {fileID: 0}
 --- !u!61 &1764270022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3323,7 +3325,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2049614437}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad7998d8b0bd14b43b23f1c032b36540, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d1d7ef6300064cb2b432d88d2ff2da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   finishPos: {x: 0, y: 0, z: 0}
