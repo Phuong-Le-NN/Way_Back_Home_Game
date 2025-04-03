@@ -12,8 +12,6 @@ public class EnemyBulletScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         Player = GameObject.FindGameObjectWithTag("Player");
-
-        Vector3 
     }
 
     // Update is called once per frame
