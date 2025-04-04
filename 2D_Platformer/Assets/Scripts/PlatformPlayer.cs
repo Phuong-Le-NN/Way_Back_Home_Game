@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlatformerPlayer : MonoBehaviour {
 	public float speed = 4.5f;
@@ -57,6 +59,11 @@ public class PlatformerPlayer : MonoBehaviour {
 		}
 		if (!Mathf.Approximately(deltaX, 0)) {
 			transform.localScale = new Vector3(Mathf.Sign(deltaX) / pScale.x, 1/pScale.y, 1);
+		}
+
+		if (transform.position.y < -500){
+			// Reload the current scene to restart the game
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 		}
 	}
 }

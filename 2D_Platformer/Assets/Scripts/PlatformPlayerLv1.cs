@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlatformerPlayerLv1 : MonoBehaviour {
 	public float speed = 4.5f;
@@ -49,7 +50,7 @@ public class PlatformerPlayerLv1 : MonoBehaviour {
 			transform.parent = null;
 		}
 
-		anim.SetFloat("speed", Mathf.Abs(deltaX));
+		// anim.SetFloat("speed", Mathf.Abs(deltaX));
 
 		Vector3 pScale = Vector3.one;
 		if (platform != null) {
@@ -57,6 +58,11 @@ public class PlatformerPlayerLv1 : MonoBehaviour {
 		}
 		if (!Mathf.Approximately(deltaX, 0)) {
 			transform.localScale = new Vector3(Mathf.Sign(deltaX) / pScale.x, 1/pScale.y, 1);
+		}
+
+		if (transform.position.y < -500){
+			// Reload the current scene to restart the game
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 		}
 	}
 }

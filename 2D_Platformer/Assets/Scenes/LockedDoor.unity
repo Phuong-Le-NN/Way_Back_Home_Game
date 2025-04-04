@@ -686,6 +686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 473e81bacdc384059bf787ef788e4f07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: {fileID: 102900000, guid: 38067fad6f7d941cdaf7e550d3268499, type: 3}
   locked: 0
   theSR: {fileID: 272863247}
   doorOpenSprite: {fileID: -7259752625170532435, guid: f29016d49c0584f6898cad18cc2edf6b, type: 3}
