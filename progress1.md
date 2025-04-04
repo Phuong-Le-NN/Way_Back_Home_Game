@@ -6,12 +6,13 @@
 The goals we outlined at this stage in our initial proposal were to complete the base material and develop the game up to the intro jump scene. This included creating a functioning jumping mechanic and integrating enemies with finalized materials and designs—essentially everything except character add-ons like speed variations. This would make up more than 50% of our game, aligning with the 50% rule and providing us with a version that could be considered publishable.
 
 To accomplish this, we divided the work evenly by splitting approximately half of the entire game into equal sections, assigning each team member specific scenes to develop. The task distribution was as follows:
-Start & Character Selection Scene – Annie
-First Scene & Load Scene – Phuong
-Locked Door Scene – Caroline
-Enemy Design & Functionality – Oghap
+- Start & Character Selection Scene – Annie
+- First Scene & Load Scene – Phuong
+- Locked Door Scene – Caroline
+- Enemy Design & Functionality – Oghap
 
 2. What feedback did you receive on your proposal? How did you incorporate that feedback?
+
 One of the main things mentioned in the feedback was that while we described the core mechanics pretty well, we could’ve gone into more detail, especially about when lives are lost (like falling off a platform or getting hit by an acorn). We’ve started to clarify those mechanics and make sure they’re included in our planning and documentation.
 
 There was also a question about whether the helper cat character had been cut. That made us realize we needed to decide if and how we want to include that character, so we’ve been discussing different ways to work it into the game, maybe as a guide or support element where the player can read.
