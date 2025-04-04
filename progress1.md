@@ -3,13 +3,13 @@
 ## Summarize proposed goals and prior feedback
 1. What goals did you originally plan to meet by this deadline? How did you delegate tasks to meet those goals?
 
-The goals we outlined at this stage in our initial proposal were to complete the base material and develop the game up to the intro jump scene. This included creating a functioning jumping mechanic and integrating enemies with finalized materials and designs—essentially everything except character add-ons like speed variations. This would make up more than 50% of our game, aligning with the 50% rule and providing us with a version that could be considered publishable.
+The goals we outlined at this stage in our initial proposal were to complete the base material and develop the game up to the intro jump scene. This included creating a functioning jumping mechanic and integrating enemies with finalized materials and designs. This would make up more than 50% of our game, aligning with the 50% rule and providing us with a version that is closer to publishable.
 
 To accomplish this, we divided the work evenly by splitting approximately half of the entire game into equal sections, assigning each team member specific scenes to develop. The task distribution was as follows:
 - Start & Character Selection Scene – Annie
 - First Scene & Load Scene – Phuong
 - Locked Door Scene – Caroline
-- Enemy Design & Functionality – Oghap
+- Enemy Design & Scene – Oghap
 
 2. What feedback did you receive on your proposal? How did you incorporate that feedback?
 
