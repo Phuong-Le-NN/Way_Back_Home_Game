@@ -53,4 +53,18 @@ The ways in which need to modify the original goals are to add to them. As a tea
 
 ## Outline plans to meet goals
 1. What tasks are required to meet the goals you have for your next checkpoint?
+    
+    The tasks required that are needed to meet the goals that we have for the next checkpoint include:
+    - Start & Character Selection Scene – Annie
+        Make the character selection system actually select different characters for each of the level.
+    - First Scene & Load Scene – Phuong
+        Focus on fine tuning smaller mechanics and also continue playtesting and functionality. 
+    - Locked Door Scene – Caroline
+        Need to look into the lagginess of the jumping of the player. Also, the player can sort of go off the the platforms and not fall off. This needs to change to ensure that if the player is not actually on the platform, then they should fall. Additionally, for some reason when the player fell, the game did not automatically start over and this needs to be looked into. Also focus on arranging platforms to make it more difficult and continue to fine tune the level.
+    - Enemy Design & Scene – Oghap
+        Making player experience more smooth and figuring out, when it dies are we going to restart the level or game over. 
+    We also need to meet with our composer to determine how we are going to incorporate the sounds into the game, and also need to work on the final scene when the puppy returns home as well and the game ends. 
+
 2. How are you delegating those tasks? Who is responsible for what?
+
+    As seen above, we will continue to work on each parts of the project we were originally assigned. We will come together as a group a couple of times to make sure that we are on track with our work, as well as determine if we need any help from one another. Setting clear deadlines and goals for each meeting has also been helpful and is something that we will continue throughout the design process.
