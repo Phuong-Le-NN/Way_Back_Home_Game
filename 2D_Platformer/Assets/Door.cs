@@ -1,7 +1,10 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
+    [SerializeField] private Object nextScene;
+
     public bool locked;
     public SpriteRenderer theSR;
     public Sprite doorOpenSprite;
@@ -25,6 +28,8 @@ public class Door : MonoBehaviour
             locked = false;
             doorOpen = true;
             theSR.sprite = doorOpenSprite;
+            Debug.Log("door open");
+            SceneManager.LoadScene(nextScene.name);
         }
     }
 

@@ -49,7 +49,7 @@ public class PlatformerPlayer : MonoBehaviour {
 			transform.parent = null;
 		}
 
-		anim.SetFloat("speed", Mathf.Abs(deltaX));
+		// anim.SetFloat("speed", Mathf.Abs(deltaX));
 
 		Vector3 pScale = Vector3.one;
 		if (platform != null) {
