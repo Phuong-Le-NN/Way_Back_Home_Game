@@ -61,9 +61,10 @@ public class PlatformerPlayer : MonoBehaviour {
 			transform.localScale = new Vector3(Mathf.Sign(deltaX) / pScale.x, 1/pScale.y, 1);
 		}
 
-		if (transform.position.y < -500){
+		if (transform.position.y < -100){
 			// Reload the current scene to restart the game
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+			GetComponent<playerHealth>().health -= 20;
 		}
 	}
 }
