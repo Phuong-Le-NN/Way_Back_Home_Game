@@ -11,12 +11,19 @@ public class PlatformerPlayer : MonoBehaviour {
 	private BoxCollider2D box;
 	private Rigidbody2D body;
 	private Animator anim;
+	public GameObject myObject;
+	private Vector3 savedPosition;
 
 	// Use this for initialization
 	void Start() {
 		box = GetComponent<BoxCollider2D>();
 		body = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
+		savedPosition = myObject.transform.position;
+	}
+
+	void MoveToStart(){
+		myObject.transform.position = savedPosition;
 	}
 	
 	// Update is called once per frame
@@ -61,9 +68,10 @@ public class PlatformerPlayer : MonoBehaviour {
 			transform.localScale = new Vector3(Mathf.Sign(deltaX) / pScale.x, 1/pScale.y, 1);
 		}
 
-		if (transform.position.y < -500){
+		if (transform.position.y < -50){
 			// Reload the current scene to restart the game
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+			MoveToStart();
 		}
 	}
 }
