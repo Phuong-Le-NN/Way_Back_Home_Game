@@ -70,8 +70,8 @@ public class PlatformerPlayer : MonoBehaviour {
 
 		if (transform.position.y < -50){
 			// Reload the current scene to restart the game
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 			GetComponent<playerHealth>().health -= 20;
+			MoveToStart();
 		}
 	}
 }
