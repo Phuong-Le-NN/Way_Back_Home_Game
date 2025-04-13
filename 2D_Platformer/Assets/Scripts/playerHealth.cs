@@ -9,12 +9,14 @@ public class playerHealth : MonoBehaviour
     public float health;
     public float maxHealth;
     public Image healthBar;
+    public GameManagerScript gameManager;
+
+    private bool isDead;
 
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
         maxHealth = health;
         
     }
@@ -23,5 +25,10 @@ public class playerHealth : MonoBehaviour
     void Update()
     {
         healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0, 1);
+
+        if (health <= 0 && !isDead){
+           isDead = true;
+           gameManager.gameOver();
+        }
     }
 }
