@@ -5,13 +5,13 @@
 
 The goals that we originally plan to meet for this deadline include the following: 
 
-    Start & Character Selection Scene – Annie Make the character selection system actually select different characters for each of the level.
+- Start & Character Selection Scene – Annie Make the character selection system actually select different characters for each of the level.
+
+- First Scene & Load Scene – Phuong Focus on fine tuning smaller mechanics and also continue playtesting and functionality.
     
-    First Scene & Load Scene – Phuong Focus on fine tuning smaller mechanics and also continue playtesting and functionality.
+- Locked Door Scene – Caroline Need to look into the lagginess of the jumping of the player. Also, the player can sort of go off the the platforms and not fall off. This needs to change to ensure that if the player is not actually on the platform, then they should fall. Additionally, for some reason when the player fell, the game did not automatically start over and this needs to be looked into. Also focus on arranging platforms to make it more difficult and continue to fine tune the level.
     
-    Locked Door Scene – Caroline Need to look into the lagginess of the jumping of the player. Also, the player can sort of go off the the platforms and not fall off. This needs to change to ensure that if the player is not actually on the platform, then they should fall. Additionally, for some reason when the player fell, the game did not automatically start over and this needs to be looked into. Also focus on arranging platforms to make it more difficult and continue to fine tune the level.
-    
-    Enemy Design & Scene – Oghap Making player experience more smooth and figuring out, when it dies are we going to restart the level or game over. We also need to meet with our composer to determine how we are going to incorporate the sounds into the game, and also need to work on the final scene when the puppy returns home as well and the game ends.
+- Enemy Design & Scene – Oghap Making player experience more smooth and figuring out, when it dies are we going to restart the level or game over. We also need to meet with our composer to determine how we are going to incorporate the sounds into the game, and also need to work on the final scene when the puppy returns home as well and the game ends.
 
 2. What feedback did you receive on your last progress report? How did you incorporate that feedback?
 
