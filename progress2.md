@@ -29,6 +29,7 @@
     Enemy Design and Scene: For this phase, we focused on refining the character’s health bar system for each level. We implemented functionality of when the character is hit by an acorn or falls off a platform, it loses health. Once the health drops below zero, a game over screen is triggered, giving the player the option to restart the game. This change added a clear UI to in-game actions and improves the overall gameplay experience. We applied this change to all of the levels furthermore.
     
     Underworld Scene: There is also a secret (sort of) level that has moving platforms and looks different UI-wise from the other levels. When working with our composer, he had mentioned that he actually really liked that scene and reccommended that we keep it in the game. We once again need to refine the aesthetics of this scene a bit, but it does have a strong foundation. 
+    
     Meeting with Composer: We were also all able to meet with our composer to decide on a track for the game, and learning how to incorporate that into our next game is going to be one of our goals for the next phase. 
 
 2. What strategies have been working well for your group? What successes have you had? Are you ready for your demo?
