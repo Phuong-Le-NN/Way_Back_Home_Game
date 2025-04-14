@@ -3,7 +3,7 @@
 ## Summarize proposed goals and prior feedback
 1. What goals did you originally plan to meet by this deadline? How did you delegate tasks to meet those goals?
 
-The goals that we originally plan to meet for this deadline include the following: 
+    The goals that we originally plan to meet for this deadline include the following: 
 
 - Start & Character Selection Scene – Annie Make the character selection system actually select different characters for each of the level.
 
@@ -42,17 +42,17 @@ The goals that we originally plan to meet for this deadline include the followin
 ## Set/refine goals for next checkpoint
 1. What were your original goals for the next checkpoint?
 
-The original goals outlined in the Phase 3 proposal include implementing special add-ons related to speed and character features. This phase represents the remaining 50% of our game development, and we will be working towards to ensure that even if adjustments or delays arise, we will still have a publishable version ready, closely resembling the final product. The planned add-ons involve introducing a timer and significantly increasing speed of the character to give variations on the difficulty and introduce a level of fun frustration. We also intend to apply final polish to the game, including sound design and visual effects, to elevate the overall user experience. Additionally, we will incorporate feedback from our previous in-class demo, making necessary design improvements to further refine the game.
+    The original goals outlined in the Phase 3 proposal include implementing special add-ons related to speed and character features. This phase represents the remaining 50% of our game development, and we will be working towards to ensure that even if adjustments or delays arise, we will still have a publishable version ready, closely resembling the final product. The planned add-ons involve introducing a timer and significantly increasing speed of the character to give variations on the difficulty and introduce a level of fun frustration. We also intend to apply final polish to the game, including sound design and visual effects, to elevate the overall user experience. Additionally, we will incorporate feedback from our previous in-class demo, making necessary design improvements to further refine the game.
 
 2. Do you need to modify those original goals? If so, what are your new goals?
 
-Some of our original goals were adjusted once we realized that the demo would take place before the end of Phase 2. As a result, our new goals for the upcoming phase has shifted toward incorporating the comments and feedback received during the in-class demo. This includes prioritizing core functionality, refining key features, and enhancing the overall user experience to deliver a more engaging version of the game that closely reflects our vision for the final product. 
+    Some of our original goals were adjusted once we realized that the demo would take place before the end of Phase 2. As a result, our new goals for the upcoming phase has shifted toward incorporating the comments and feedback received during the in-class demo. This includes prioritizing core functionality, refining key features, and enhancing the overall user experience to deliver a more engaging version of the game that closely reflects our vision for the final product. 
 
 ## Outline plans to meet goals
 1. What tasks are required to meet the goals you have for your next checkpoint?
 
-To meet our updated goals for the next checkpoint, we plan to complete several main tasks. These include implementing the timer system, adjusting the character’s speed to add variation in difficulty, and adding the sound and the songs. We also aim to incorporate feedback from the in-class demo, which involves improving gameplay mechanics and enhancing visual effects. Lastly, we will focus on final polish—ensuring a publishable and cohesive version of the game is ready.
+    To meet our updated goals for the next checkpoint, we plan to complete several main tasks. These include implementing the timer system, adjusting the character’s speed to add variation in difficulty, and adding the sound and the songs. We also aim to incorporate feedback from the in-class demo, which involves improving gameplay mechanics and enhancing visual effects. Lastly, we will focus on final polish—ensuring a publishable and cohesive version of the game is ready.
 
 2. How are you delegating those tasks? Who is responsible for what?
 
-We are dividing the tasks based on each team member’s strengths and prior contributions. One member will be responsible for implementing the timer system level. Another will focus on adjusting the character’s speed to introduce varying levels of difficulty. A third member will handle adding sound effects and background music to enhance the game atmosphere. Another member will work on improving gameplay mechanics such as creating smoother platform interactions and refining visual effects based on feedback from the in-class demo. All team members will collaborate on final polish to ensure the game is closer to the final version!
+    We are dividing the tasks based on each team member’s strengths and prior contributions. One member will be responsible for implementing the timer system level. Another will focus on adjusting the character’s speed to introduce varying levels of difficulty. A third member will handle adding sound effects and background music to enhance the game atmosphere. Another member will work on improving gameplay mechanics such as creating smoother platform interactions and refining visual effects based on feedback from the in-class demo. All team members will collaborate on final polish to ensure the game is closer to the final version!
