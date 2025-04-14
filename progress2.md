@@ -22,7 +22,7 @@
 
     For the start and and character selection scene, Annie has been working on the data persistance of keeping the character the same throughout each of the levels. We had not originally thought that this was going to be an issue, but when figuring out the player details, this is something that we needed to figure out before the demo, so that we had at least one of the characters working. The corgi is working, and a goal that we have for the next progress report is to have the second player character option working.
 
-    First and Load Scene (Phuong here is where you can add your updates to this goal)
+    First and Load Scene : We were able to create a more unified look for the first playable scene that the player attempts (a very simple version of the jump map). We were ablso able to connect each of the different scenes so that the player can move through each level to eventually win the game. Additonally, we were also able to compile a build for the demo on Wednesday as well. 
 
     Locked Door Scene : For this scene, we changed around the jump map setup to have a bit more of the pattern to the way that the plaforms are laid out. We were also able to figure out how to start the scene over when the player fell, and were successfully able to reset its position. We also added a panel to the game, so that when the player fell too many times, that the healthbar ran out, there is a panel that pops up and tells the player that they lost the game, and when they hit replay the game starts over. We still need to figure out some of the smaller design details with the platforms, because the player is able to sort of run into or like float somewhat off the platform when you are jumoing between the platform. 
 
