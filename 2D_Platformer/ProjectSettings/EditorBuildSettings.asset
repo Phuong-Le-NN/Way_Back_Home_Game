@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/start.unity
     guid: b2032e2f31b884e67b1de05d05e800a7
   - enabled: 1
-    path: Assets/Scenes/LockedDoor.unity
-    guid: ee1e7e9f5d19d4018a3e899f06b92e1f
-  - enabled: 1
     path: Assets/Scenes/FirstLvl.unity
     guid: cae39daab28744b07b841a29d5792f7e
+  - enabled: 1
+    path: Assets/Scenes/LockedDoor.unity
+    guid: ee1e7e9f5d19d4018a3e899f06b92e1f
   - enabled: 1
     path: Assets/Scenes/EnemyScene.unity
     guid: 38067fad6f7d941cdaf7e550d3268499

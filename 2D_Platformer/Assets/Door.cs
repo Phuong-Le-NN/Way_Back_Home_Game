@@ -29,7 +29,7 @@ public class Door : MonoBehaviour
             doorOpen = true;
             theSR.sprite = doorOpenSprite;
             Debug.Log("door open");
-            SceneManager.LoadScene(nextScene.name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
