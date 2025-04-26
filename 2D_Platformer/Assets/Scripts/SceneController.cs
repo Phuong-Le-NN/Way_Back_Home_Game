@@ -21,18 +21,17 @@ public class SceneController : MonoBehaviour {
         posX = originalPlatform.transform.position.x;
         posY = originalPlatform.transform.position.y;
         bool firstPlatform = true;
-        float ran = 0;
+        float ran = Random.Range(0f, 1f);
             while((Mathf.Abs(posX - end.transform.position.x) > 3f) || (Mathf.Abs(posY - end.transform.position.y) > 3f)){
                 SpawnPlatform platform;
                 if (firstPlatform){
                     float offSetEndX = Random.Range(40f, 45f);
                     float offSetEndY = Random.Range(20f, 25f);
-                    ran = Random.Range(0f, 1f);
-                    if (ran > 0.5f){
+                    if (ran >= 0.5f){
                         offSetEndX = - offSetEndX;
                     }
                     ran = Random.Range(0f, 1f);
-                    if (ran > 0.5f){
+                    if (ran >= 0.5f){
                         offSetEndY = - offSetEndY;
                     }
                     platform = originalPlatform;
