@@ -38,7 +38,7 @@ public class SceneController : MonoBehaviour {
                     platform = originalPlatform;
                     firstPlatform = false;
                     end.transform.position = new Vector3(originalPlatform.transform.position.x + offSetEndX, originalPlatform.transform.position.y + offSetEndY, startPos.z);
-                    ran = 0;
+                    // ran = 0;
                     continue;
                 } else {
                     platform = Instantiate(originalPlatform) as SpawnPlatform;
@@ -49,19 +49,17 @@ public class SceneController : MonoBehaviour {
 
                 offsetX = Random.Range(4f, 6f);
                 offsetY = Random.Range(1f, 2f);
-                if (ran == 0){
-                    ran = Random.Range(0f, 1f);
-                }
-                int back = 1;
-                if (ran > 0){
-                    ran = ran - 0.1f;
-                    back = -1;
-                }
                 if ((end.transform.position.x > posX)){
-                    posX = posX + offsetX*back;
+                    posX = posX + offsetX;
+                }
+                else{
+                    posX = posX - offsetX;
                 }
                 if ((end.transform.position.y > posY)){
-                    posY = posY + offsetY*back;
+                    posY = posY + offsetY;
+                }
+                else{
+                    posY = posY - offsetY;
                 }
                 platform.transform.position = new Vector3(posX, posY, startPos.z);
             }
