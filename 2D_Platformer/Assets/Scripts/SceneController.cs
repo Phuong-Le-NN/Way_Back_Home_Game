@@ -47,7 +47,7 @@ public class SceneController : MonoBehaviour {
                 platform.SetPlatform(id, images[id]);
 
                 offsetX = Random.Range(4f, 6f);
-                offsetY = Random.Range(1f, 2f);
+                offsetY = Random.Range(1f, 2f); 
                 if ((end.transform.position.x > posX)){
                     posX = posX + offsetX;
                 }
