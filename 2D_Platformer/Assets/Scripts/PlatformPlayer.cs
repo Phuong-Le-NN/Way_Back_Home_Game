@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class PlatformerPlayer : MonoBehaviour {
 	public float speed = 4.5f;
 	public float jumpForce = 12.0f;
+	public Text WINTEXT;
 
 	private BoxCollider2D box;
 	private Rigidbody2D body;
@@ -75,4 +77,11 @@ public class PlatformerPlayer : MonoBehaviour {
 		}
 
 	}
+	private void OnTriggerEnter2D(Collider2D collision)
+		{
+			if (collision.tag == "Win")
+			{
+				WINTEXT.gameObject.SetActive(true);
+			}
+		}
 }
