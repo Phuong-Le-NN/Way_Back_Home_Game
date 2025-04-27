@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using TMPro;
 
 public class PlatformerPlayer : MonoBehaviour {
 	public float speed = 4.5f;
 	public float jumpForce = 12.0f;
-	public Text WINTEXT;
+	public TextMeshProUGUI WINTEXT;
+
 
 	private BoxCollider2D box;
 	private Rigidbody2D body;
