@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneController : MonoBehaviour {
-    [SerializeField] SpawnPlatform originalPlatform;
+public class Key2DoorSceneCtrller : MonoBehaviour {
+    [SerializeField] SpawnKeyPlatform originalPos;
     [SerializeField] Sprite[] images;
     [SerializeField] GameObject end;
     public const int gridRows = 10;
@@ -17,14 +17,13 @@ public class SceneController : MonoBehaviour {
     float near;
 
     void Start() {
-        Vector3 startPos = originalPlatform.transform.position;
-        posX = originalPlatform.transform.position.x;
-        posY = originalPlatform.transform.position.y;
+        Vector3 startPos = originalPos.transform.position;
+        posX = originalPos.transform.position.x;
+        posY = originalPos.transform.position.y;
         bool firstPlatform = true;
         float ran = Random.Range(0f, 1f);
-        float prevX = posX;
             while((Mathf.Abs(posX - end.transform.position.x) > 3f) || (Mathf.Abs(posY - end.transform.position.y) > 3f)){
-                SpawnPlatform platform;
+                SpawnKeyPlatform platform;
                 if (firstPlatform){
                     float offSetEndX = Random.Range(40f, 45f);
                     float offSetEndY = Random.Range(20f, 25f);
@@ -35,29 +34,25 @@ public class SceneController : MonoBehaviour {
                     if (ran >= 0.5f){
                         offSetEndY = - offSetEndY;
                     }
-                    platform = originalPlatform;
+                    platform = originalPos;
                     firstPlatform = false;
-                    end.transform.position = new Vector3(originalPlatform.transform.position.x + offSetEndX, originalPlatform.transform.position.y + offSetEndY, startPos.z);
+                    end.transform.position = new Vector3(originalPos.transform.position.x + offSetEndX, originalPos.transform.position.y + offSetEndY, startPos.z);
                     // ran = 0;
                     continue;
                 } else {
-                    platform = Instantiate(originalPlatform) as SpawnPlatform;
+                    platform = Instantiate(originalPos) as SpawnKeyPlatform;
                 }
 
                 int id = 0;
                 platform.SetPlatform(id, images[id]);
 
-                offsetX = Random.Range(5.5f, 6f);
+                offsetX = Random.Range(4f, 6f);
                 offsetY = Random.Range(1.2f, 1.8f); 
                 if ((end.transform.position.x > posX)){
                     posX = posX + offsetX;
                 }
                 else{
                     posX = posX - offsetX;
-                }
-                float detour = Random.Range(0f, 1f);
-                if (detour > 0.8f){
-                    offsetY = 0 - offsetY;
                 }
                 if ((end.transform.position.y > posY)){
                     posY = posY + offsetY;
@@ -66,7 +61,6 @@ public class SceneController : MonoBehaviour {
                     posY = posY - offsetY;
                 }
                 platform.transform.position = new Vector3(posX, posY, startPos.z);
-                prevX = posX;
             }
             //sometimes the last platform got layered on the cup so we transform the position of the cup one last time at the end to not be hidden
             end.transform.position = new Vector3(posX, posY + 1, startPos.z);
