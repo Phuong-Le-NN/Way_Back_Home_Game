@@ -32,7 +32,7 @@ public class PlatformerPlayer : MonoBehaviour {
 		{
 			string selectedName = StartGameManager.instance.currentCharacter.name;
 
-			if (selectedName == "Delmation") // Check by name
+			if (selectedName == "Dalmatian") // Check by name
 			{
 				speed = 8.0f; // Faster for Dalmatian
 			}
@@ -96,7 +96,7 @@ public class PlatformerPlayer : MonoBehaviour {
 			{
 				string selectedName = StartGameManager.instance.currentCharacter.name;
 
-				if (selectedName == "Delmation") // Check by name
+				if (selectedName == "Dalmatian") // Check by name
 				{
 					GetComponent<playerHealth>().health -= 20;
 					MoveToStart();
