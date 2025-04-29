@@ -28,6 +28,6 @@ public class PlayerManager : MonoBehaviour
 
     public void ReplayLevel()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(0);
     }
 }

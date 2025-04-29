@@ -15,7 +15,7 @@ public class FinishLine : MonoBehaviour
             Debug.Log("collided");
             if(LoadScene == 0){
                 // Reload the current scene to restart the game
-                SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1)%5);            }
+                SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1)%6);            }
             
         }
     }
