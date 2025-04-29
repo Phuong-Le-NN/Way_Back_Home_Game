@@ -7,6 +7,7 @@ public class ToKeySceneTroller : MonoBehaviour {
     [SerializeField] SpawnKeyPlatform KeyPlatform;
     [SerializeField] Sprite[] images;
     [SerializeField] GameObject end;
+    [SerializeField] Key2DoorSceneCtrller key2doorInit;
     public const int gridRows = 10;
     public const int gridCols = 10;
     float offsetX = 2f;
@@ -66,5 +67,6 @@ public class ToKeySceneTroller : MonoBehaviour {
             //sometimes the last platform got layered on the cup so we transform the position of the cup one last time at the end to not be hidden
             end.transform.position = new Vector3(posX, posY + 1, startPos.z);
             KeyPlatform.transform.position = new Vector3(posX, posY, startPos.z);
+            key2doorInit.InitKey2Door();
     }
 }

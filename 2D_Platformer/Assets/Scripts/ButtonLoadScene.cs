@@ -12,7 +12,7 @@ public class ButtonLoadScene : MonoBehaviour
         SceneManager.LoadScene("FirstLvl");
     }
 
-    public void LaodNextBuild()
+    public void LoadNextBuild()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

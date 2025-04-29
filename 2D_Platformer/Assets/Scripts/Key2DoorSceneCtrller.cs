@@ -17,7 +17,7 @@ public class Key2DoorSceneCtrller : MonoBehaviour {
 
     float near;
 
-    void Start() {
+    public void InitKey2Door() {
         Vector3 startPos = originalPos.transform.position;
         posX = originalPos.transform.position.x;
         posY = originalPos.transform.position.y;

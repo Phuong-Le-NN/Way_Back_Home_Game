@@ -10,6 +10,8 @@ public class PlatformerPlayer : MonoBehaviour {
 	public float jumpForce = 12.0f;
 	public TextMeshProUGUI WINTEXT;
 
+	public GameObject player;
+
 
 	private BoxCollider2D box;
 	private Rigidbody2D body;
@@ -23,6 +25,22 @@ public class PlatformerPlayer : MonoBehaviour {
 		body = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
 		savedPosition = myObject.transform.position;
+		player = GameObject.Find("Player");
+
+		// Set player speed depending on the character selected
+		if (StartGameManager.instance != null && StartGameManager.instance.currentCharacter != null)
+		{
+			string selectedName = StartGameManager.instance.currentCharacter.name;
+
+			if (selectedName == "Delmation") // Check by name
+			{
+				speed = 8.0f; // Faster for Dalmatian
+			}
+			else if (selectedName == "Corgi")
+			{
+				speed = 4.5f; // Normal speed for Corgi
+			}
+		}
 	}
 
 	void MoveToStart(){
@@ -73,10 +91,24 @@ public class PlatformerPlayer : MonoBehaviour {
 
 		if (transform.position.y < -50){
 
-			GetComponent<playerHealth>().health -= 20;
-			MoveToStart();
-		}
+			// Set player speed depending on the character selected
+			if (StartGameManager.instance != null && StartGameManager.instance.currentCharacter != null)
+			{
+				string selectedName = StartGameManager.instance.currentCharacter.name;
 
+				if (selectedName == "Delmation") // Check by name
+				{
+					GetComponent<playerHealth>().health -= 20;
+					MoveToStart();
+				}
+				else if (selectedName == "Corgi")
+				{
+					GetComponent<playerHealth>().health -= 10;
+					MoveToStart();
+				}
+			}
+		}
+		player.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
 	}
 	private void OnTriggerEnter2D(Collider2D collision)
 		{
