@@ -22,7 +22,7 @@ public class CharacterSelectionUI : MonoBehaviour
                 }
 
                 selectedCharacter = option.transform; 
-                SceneManager.LoadScene("FirstLvl"); 
+                SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1)%6);
             });
 
             Text text = option.GetComponentInChildren<Text>();
