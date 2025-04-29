@@ -1112,7 +1112,7 @@ MonoBehaviour:
     name: Corgi
     icon: {fileID: -728797312652332229, guid: 6800b475dabbb48068f358293a69e1c5, type: 3}
   - prefab: {fileID: 3554246418369344825, guid: dac7b3e91d6c844b1b45218f6dcb3ac7, type: 3}
-    name: Delmation
+    name: Dalmatian
     icon: {fileID: -8941771938360090373, guid: 06330b15cc7c9495b995fe14ce46f655, type: 3}
   currentCharacter:
     prefab: {fileID: 3710729183017023262, guid: f713de863c0994e1bb111ef82d56df1c, type: 3}
@@ -1277,10 +1277,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Welcome! Depending on your choice of character, \nyour skills may change.
-    Delmation allows you to \nwalk faster with its long legs!! But the speed adds
-    more \ndamage... On the other hand, the Corgi walks slower! However, \nthere
-    is much less damage since its fluffy fur will act like a cushion!"
+  m_text: 'Welcome! Based on your selection, your skills
+
+    may change! Dalmatians
+    have longer legs for
+
+    running fater, but Corgis have a thick fur coat
+
+    to
+    protect them from damage!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 62448cd6de05e4bda8773156e3864981, type: 2}
   m_sharedMaterial: {fileID: -2299836616540616997, guid: 62448cd6de05e4bda8773156e3864981, type: 2}
@@ -1348,7 +1353,7 @@ MonoBehaviour:
   m_margin: {x: 22.025862, y: 16.444206, z: -12.574455, w: 17.442636}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800907032
@@ -1684,7 +1689,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Choose Your Character!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 62448cd6de05e4bda8773156e3864981, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1715,7 +1720,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 34
+  m_fontStyle: 32
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1750,7 +1755,7 @@ MonoBehaviour:
   m_margin: {x: 37.152702, y: 30.010687, z: -30.663101, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1153949083
@@ -2345,8 +2350,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ruff Road Home !
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 62448cd6de05e4bda8773156e3864981, type: 2}
+  m_sharedMaterial: {fileID: -2299836616540616997, guid: 62448cd6de05e4bda8773156e3864981, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2376,7 +2381,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 34
+  m_fontStyle: 32
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
