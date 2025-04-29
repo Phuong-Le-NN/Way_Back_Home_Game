@@ -2151,7 +2151,7 @@ GameObject:
   - component: {fileID: 1383044246}
   - component: {fileID: 1383044247}
   m_Layer: 0
-  m_Name: EmptyPlatform
+  m_Name: SceneController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2473,6 +2473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4.5
   jumpForce: 12
+  WINTEXT: {fileID: 0}
   myObject: {fileID: 1620748624}
 --- !u!114 &1620748632
 MonoBehaviour:
