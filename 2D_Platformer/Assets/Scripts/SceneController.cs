@@ -14,14 +14,14 @@ public class SceneController : MonoBehaviour {
     float posX;
     float posY;
 
-    float near;
-
     void Start() {
         Vector3 startPos = originalPlatform.transform.position;
         posX = originalPlatform.transform.position.x;
         posY = originalPlatform.transform.position.y;
         bool firstPlatform = true;
         float ran = Random.Range(0f, 1f);
+        float prevX = originalPlatform.transform.position.x;
+        float prevprevX = originalPlatform.transform.position.x;
             while((Mathf.Abs(posX - end.transform.position.x) > 3f) || (Mathf.Abs(posY - end.transform.position.y) > 3f)){
                 SpawnPlatform platform;
                 if (firstPlatform){
@@ -46,13 +46,17 @@ public class SceneController : MonoBehaviour {
                 int id = 0;
                 platform.SetPlatform(id, images[id]);
 
-                offsetX = Random.Range(4f, 6f);
+                offsetX = Random.Range(5.7f, 6f);
                 offsetY = Random.Range(1.2f, 1.8f); 
                 if ((end.transform.position.x > posX)){
                     posX = posX + offsetX;
                 }
                 else{
                     posX = posX - offsetX;
+                }
+                float detour = Random.Range(0f, 1f);
+                if ((detour > 0.7f) & (Mathf.Abs(prevprevX - posX) > 3f)){
+                    offsetY = 0 - offsetY;
                 }
                 if ((end.transform.position.y > posY)){
                     posY = posY + offsetY;
@@ -61,6 +65,8 @@ public class SceneController : MonoBehaviour {
                     posY = posY - offsetY;
                 }
                 platform.transform.position = new Vector3(posX, posY, startPos.z);
+                prevprevX = prevX;
+                prevX = posX;
             }
             //sometimes the last platform got layered on the cup so we transform the position of the cup one last time at the end to not be hidden
             end.transform.position = new Vector3(posX, posY + 1, startPos.z);
