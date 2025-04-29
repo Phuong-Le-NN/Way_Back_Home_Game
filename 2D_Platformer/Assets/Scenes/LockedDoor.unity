@@ -1327,6 +1327,7 @@ MonoBehaviour:
   images:
   - {fileID: -4573595096063780701, guid: 432115346473541fc987b6db0c4a0513, type: 3}
   end: {fileID: 1552336939}
+  key2doorInit: {fileID: 502545913}
 --- !u!1 &1054442473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2118,6 +2119,7 @@ MonoBehaviour:
   speed: 4.5
   jumpForce: 12
   WINTEXT: {fileID: 0}
+  player: {fileID: 0}
   myObject: {fileID: 1620748624}
 --- !u!114 &1620748632
 MonoBehaviour:
