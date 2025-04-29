@@ -10,6 +10,8 @@ public class PlatformerPlayer : MonoBehaviour {
 	public float jumpForce = 12.0f;
 	public TextMeshProUGUI WINTEXT;
 
+	public GameObject player;
+
 
 	private BoxCollider2D box;
 	private Rigidbody2D body;
@@ -23,6 +25,7 @@ public class PlatformerPlayer : MonoBehaviour {
 		body = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
 		savedPosition = myObject.transform.position;
+		player = GameObject.Find("Player");
 	}
 
 	void MoveToStart(){
@@ -76,7 +79,7 @@ public class PlatformerPlayer : MonoBehaviour {
 			GetComponent<playerHealth>().health -= 20;
 			MoveToStart();
 		}
-
+		player.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
 	}
 	private void OnTriggerEnter2D(Collider2D collision)
 		{
