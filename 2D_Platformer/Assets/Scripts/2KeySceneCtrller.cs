@@ -12,7 +12,6 @@ public class ToKeySceneTroller : MonoBehaviour {
     public const int gridCols = 10;
     float offsetX = 2f;
     float offsetY = 2.5f;
-    float distance = 0f;
     float posX;
     float posY;
 

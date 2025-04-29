@@ -8,9 +8,9 @@ using TMPro;
 public class PlatformerPlayer : MonoBehaviour {
 	public float speed = 4.5f;
 	public float jumpForce = 12.0f;
-	public TextMeshProUGUI WINTEXT;
+	private TextMeshProUGUI WINTEXT;
 
-	public GameObject player;
+	private GameObject player;
 
 
 	private BoxCollider2D box;

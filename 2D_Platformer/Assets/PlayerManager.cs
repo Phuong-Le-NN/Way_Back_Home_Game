@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class PlayerManager : MonoBehaviour
 {
     public static bool isGameOver;
-    public GameObject gameOverScreen;
+    private GameObject gameOverScreen;
 
     public void Awake()
     {

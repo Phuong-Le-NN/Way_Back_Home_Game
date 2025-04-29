@@ -7,7 +7,6 @@ public class FinishLine : MonoBehaviour
 {
     float LoadScene = 0;
 
-    [SerializeField] private Object nextScene;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
