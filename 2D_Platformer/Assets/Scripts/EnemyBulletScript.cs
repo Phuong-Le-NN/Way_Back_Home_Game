@@ -8,6 +8,8 @@ public class EnemyBulletScript : MonoBehaviour
     private Rigidbody2D rb;
     public float force;
     private float timer;
+    private GameObject instructions;
+    private bool panelOff = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,11 +33,14 @@ public class EnemyBulletScript : MonoBehaviour
         if (timer > 10){
             Destroy(gameObject);
         }
+        instructions = GameObject.Find("Canvas/instructions");
+		if ((instructions != null) && (instructions.activeSelf)){
+			panelOff = false;
+		}
     }
 
     void OnTriggerEnter2D(Collider2D other){
-
-        if (other.gameObject.CompareTag("Player")){
+        if (other.gameObject.CompareTag("Player") && panelOff){
             other.gameObject.GetComponent<playerHealth>().health -= 20;
             Destroy(gameObject);
         }

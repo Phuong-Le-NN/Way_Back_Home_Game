@@ -3,6 +3,7 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
+    [SerializeField] GameObject[] panels;
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] float remainingTime;
     [SerializeField] GameObject gameOverPanel; 
@@ -13,7 +14,14 @@ public class Timer : MonoBehaviour
     }
     void Update()
     {
-        if (remainingTime > 0)
+        bool panelOff = true;
+		foreach (GameObject panel in panels){
+			if (panel.activeSelf){
+				panelOff = false;
+				break;
+			}
+		}
+        if (remainingTime > 0 && panelOff)
         {
             remainingTime -= Time.deltaTime;
         }

@@ -8,6 +8,7 @@ using TMPro;
 public class PlatformerPlayer : MonoBehaviour {
 	public float speed = 4.5f;
 	public float jumpForce = 12.0f;
+	[SerializeField] GameObject[] panels;
 	private TextMeshProUGUI WINTEXT;
 
 	private GameObject player;
@@ -90,9 +91,15 @@ public class PlatformerPlayer : MonoBehaviour {
 		}
 
 		if (transform.position.y < -50){
-
+			bool panelOff = true;
+			 foreach (GameObject panel in panels){
+				if (panel.activeSelf){
+					panelOff = false;
+					break;
+				}
+			}
 			// Set player speed depending on the character selected
-			if (StartGameManager.instance != null && StartGameManager.instance.currentCharacter != null)
+			if (StartGameManager.instance != null && StartGameManager.instance.currentCharacter != null && panelOff)
 			{
 				string selectedName = StartGameManager.instance.currentCharacter.name;
 

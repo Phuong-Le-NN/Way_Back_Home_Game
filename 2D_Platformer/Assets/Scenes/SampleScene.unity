@@ -1349,6 +1349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4.5
   jumpForce: 12
+  panels: []
   myObject: {fileID: 682813474}
 --- !u!61 &682813477
 BoxCollider2D:
@@ -2924,6 +2925,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432caaefaaf14404e864c06df6e26445, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 1879050471}
+  - {fileID: 977043819}
   timerText: {fileID: 495632012}
   remainingTime: 90
   gameOverPanel: {fileID: 977043819}
