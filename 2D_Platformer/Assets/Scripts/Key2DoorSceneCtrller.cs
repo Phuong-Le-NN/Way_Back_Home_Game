@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Key2DoorSceneCtrller : MonoBehaviour {
-    [SerializeField] SpawnKeyPlatform originalPos;
+    [SerializeField] GameObject start;
+    [SerializeField] SpawnKeyPlatform keyPlatform;
     [SerializeField] Sprite[] images;
     [SerializeField] GameObject end;
     [SerializeField] GameObject cat;
@@ -17,9 +18,9 @@ public class Key2DoorSceneCtrller : MonoBehaviour {
     float near;
 
     public void InitKey2Door() {
-        Vector3 startPos = originalPos.transform.position;
-        posX = originalPos.transform.position.x;
-        posY = originalPos.transform.position.y;
+        Vector3 startPos = keyPlatform.transform.position;
+        posX = keyPlatform.transform.position.x;
+        posY = keyPlatform.transform.position.y;
         bool firstPlatform = true;
         float ran = Random.Range(0f, 1f);
             while((Mathf.Abs(posX - end.transform.position.x) > 3f) || (Mathf.Abs(posY - end.transform.position.y) > 3f)){
@@ -34,13 +35,21 @@ public class Key2DoorSceneCtrller : MonoBehaviour {
                     if (ran >= 0.5f){
                         offSetEndY = - offSetEndY;
                     }
-                    platform = originalPos;
+                    platform = keyPlatform;
                     firstPlatform = false;
-                    end.transform.position = new Vector3(originalPos.transform.position.x + offSetEndX, originalPos.transform.position.y + offSetEndY, startPos.z);
+                    float endX = keyPlatform.transform.position.x + offSetEndX;
+                    if (Mathf.Abs(keyPlatform.transform.position.x + offSetEndX - start.transform.position.x) < 10f ){
+                        if (keyPlatform.transform.position.x > start.transform.position.x){
+                            endX = start.transform.position.x - 12f;
+                        } else {
+                            endX = start.transform.position.x + 12f;
+                        }
+                    }
+                    end.transform.position = new Vector3(endX, keyPlatform.transform.position.y + offSetEndY, startPos.z);
                     // ran = 0;
                     continue;
                 } else {
-                    platform = Instantiate(originalPos) as SpawnKeyPlatform;
+                    platform = Instantiate(keyPlatform) as SpawnKeyPlatform;
                 }
 
                 int id = 0;
