@@ -2129,6 +2129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4.5
   jumpForce: 12
+  panels: []
   myObject: {fileID: 1620748624}
 --- !u!114 &1620748632
 MonoBehaviour:
@@ -2346,10 +2347,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1972879777}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -102.915375, y: 65.06146}
-  m_SizeDelta: {x: 405.8307, y: 180.1229}
+  m_SizeDelta: {x: -362.1693, y: -279.8771}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1983320251
 MonoBehaviour:
@@ -2403,9 +2404,9 @@ MonoBehaviour:
   m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 36
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
