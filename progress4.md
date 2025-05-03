@@ -51,10 +51,12 @@
 
    We wil also add a restart button in the corner of the screen so that players can decide to restart the game, and maybe change characters if they'd like.
 
+   We are also considering making it so that the game cannot be played until the player presses okay on the instruction panels before each level, so they have to read the instructions. And then also making it so that the player freezes after all of the lives are lost and the player has to restart the game when they lose, instead of just continuing to play with the game over panel panel on the screen. 
+
 ## Outline plans to meet goals
 1. What tasks are required to meet the goals you have for your final submission?
 
-   All of the changes that we are planning on making are in the UI for the game. We have already worked with panels, and some of the issues are aesthetic, so we do not need to learn new things for those changes. We anticipate the toughest issue being the text size. Before the showcase, we were able to fix the text size on some of the panels. However it did not work on all of them, so we will have to figureo ut how to solve this issue.
+   All of the changes that we are planning on making are in the UI for the game. We have already worked with panels, and some of the issues are aesthetic, so we do not need to learn new things for those changes. We anticipate the toughest issue being the text size. Before the showcase, we were able to fix the text size on some of the panels. However it did not work on all of them, so we will have to figure out how to solve this issue. We will also have to end game play after the game over panel by freezing the player, and then not allowing the player to play the game until after they press okay on the instruction panel. 
    
 2. How are you delegating those tasks? Who is responsible for what?
 
