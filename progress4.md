@@ -30,8 +30,17 @@
 
 ## Evaluate showcase feedback
 1. Did the feedback confirm anything you already suspected?
+
+    The feedback confirmed several things that our team had already suspected. Many participants commented on the jumping mechanics, specifically noting that the jump felt awkward or "wonky," especially when trying to land on platform edges. This aligns with concerns we previously had about the gameplay physics. Additionally, the overall reaction to the game’s aesthetic was very positive! Players described it as fun and easy to pick up, which suggests that our goal of creating a user-friendly experience was successfully achieved. There were also repeated compliments on the storyline and the design of the dog characters, which was especially encouraging as those were key elements that our group wanted to highlight in our game.
+
 2. Did it tell you anything new?
+
+    Yes, the feedback revealed several new aspects of the game that we hadn’t fully considered before. A number of players pointed out issues with the storytelling screens, such as the text blending into the background, and small "OK" buttons that were easy to miss. These concerns weren't on our radar but are definitely worth addressing. Additionally, several players showed interest in expanded movement options such as dashing or rolling which could make the gameplay more dynamic and engaging. It was also interesting to hear that some players actually enjoyed the platforming bugs, like clinging to platform edges or jumping on floating objects, interpreting them as fun elements rather than flaws. Finally, the character balance between the corgi and the dalmatian raised a new concern. While we intended for both dogs to offer unique play styles, many players felt the dalmatian was objectively better, suggesting we may need to adjust their abilities to keep the balance between them.
+
 3. Are there questions you still have that are unanswered?
+
+    Yes, the feedback leaves us with a few questions. One key area of uncertainty is the game’s difficulty level. While some players appreciated the simplicity, others wanted a greater challenge or more complex levels. Our group questions about how much difficulty we should introduce in future updates without losing the current feel of the game. Another question is how much we should invest in polishing the storytelling interface. While some players were distracted by the layout, it's unclear whether improving these elements would significantly enhance the experience or just be a minor upgrade. We’re also still wondering how to better communicate character differences and whether it’s worth rebalancing the gameplay to make the corgi and dalmatian more equal.
+
    
 ## Set/refine goals for final submission
 1. What changes are you planning to make between now and the final submission?
