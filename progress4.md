@@ -45,6 +45,17 @@
 ## Set/refine goals for final submission
 1. What changes are you planning to make between now and the final submission?
 
+   During the showcase we noticed that a lot of people would skip past the instructions to begin playing. Either they would keep the instruction panel up by not pressing "ok" and be able to cheat through the game, or they would skip reading the instructions and then complain about not knowing how to play. In order to mitigate this issue, we are planning on making the instruction panels opaque so that you can not play the game until the "ok" button has been pressed. We will also make the text and the "ok button larger so that it is more obvious to the player to read the instructions.
+
+   Having an opaque panel will also solve this issue of the health bar blocking the text in some of the instruction panels.
+
+   We wil also add a restart button in the corner of the screen so that players can decide to restart the game, and maybe change characters if they'd like.
+
 ## Outline plans to meet goals
 1. What tasks are required to meet the goals you have for your final submission?
+
+   All of the changes that we are planning on making are in the UI for the game. We have already worked with panels, and some of the issues are aesthetic, so we do not need to learn new things for those changes. We anticipate the toughest issue being the text size. Before the showcase, we were able to fix the text size on some of the panels. However it did not work on all of them, so we will have to figureo ut how to solve this issue.
+   
 2. How are you delegating those tasks? Who is responsible for what?
+
+   Annie had been working on the instruction panels, so she will continue to work on them and fix the aesthetic issues. Phuong and Oghap will troubleshoot the text size and ensuring the text stays large even after the web build. Caroline will work on the restart button in the corner of the game.
