@@ -19,7 +19,14 @@
         To our surprise, most people responded yes to this question. Many people said that for a character in the video game, the motion of the character feels very natural and enjoyable. Some people did say that there was some glitchiness when the dog was on the edge of the platform and sort of got stuck. To solve this, some people found that by pressing the space bar more than once helped them get onto the platform. 
     
     3. How did the game make you feel? Was the ending rewarding?
-        
+        Everyone except for one person said that the game was rewarding, and fun. Some of the different reasons for why people said it was fun is because it challenged them, the music and dog character was rewarding throughout the gameplay experience. Some people thought it was relaxing while others felt like their heart rate got up while playing the enemy against the squirrel. It was interesting to see that people found the game interesting and enjoyable for different reasons. Overall, people thought the game was an adventurous experienced that had different challenges depending on the player's skill level. 
+
+    4. What advice do you have for this team? Were any parts of this game frustraing?
+        Some people said that the jump mechanic was a bit glitchy at times, and that it would have beeb helpful if there was an instructins on the double jump abilities as well as the controls to click to move the character. Some people also wanted unlimited lives or more levels. There were also different comments surrounding the layouts of the levels, for example what to do after the player got the key and where they should go next. This was not an issue for everyone, but got brought up a couple of times. These were the majority of the points of feedback that we got on this question.
+
+    5. What did the team do well and what did you enjoy about this game?
+        A lot of people really enjoyed the different aesthetics such as the music, graphics and characters. Some people also commented on how the storytelling added to the experience and explained some of the different levels and how to get through them better. People also liked the ability to choose a character and said that the organization of the game was easy and straightforward. This is an overall summary of the parts of the game that people enjoyed the most. 
+
 
 ## Evaluate showcase feedback
 1. Did the feedback confirm anything you already suspected?
