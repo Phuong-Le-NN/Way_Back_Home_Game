@@ -62,6 +62,8 @@
 
         Another issue that we were running into on the web build during the showcase is that the size of the text was not big enough. Therefore, we changed the size of the text throughout the game including the instructions for each level, as well as the story text on each of the scenes before the player entered the level. 
 
+        Another fix that we had to make was ensuring that the very first scene we created showed up in the web build. The scene that actually says 'Ruff Road Home' was not showing up in thw web build, but we were able to fix this for the final version of the game. 
+
         Finally, the last change we made was having a restart button on the corner of the screen, to give the player an option on whether or not they wanted to restart the game at a random point to either change characters or just begin playing again. This change was slightly more difficult to make rather than just the text size and coloring of the panels, but we were successfully able to implement this change to give the player further autonomy in optimizing their player experience. 
 
 3. What changes would you make if you had an extra week? An extra month?
