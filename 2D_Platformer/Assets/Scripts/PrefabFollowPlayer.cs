@@ -20,10 +20,10 @@ public class PrefabFollowPlayer : MonoBehaviour {
         transform.position = new Vector3(target.transform.position.x, target.transform.position.y, target.transform.position.z);
 
         // Check key input to flip
-        if (Input.GetKey(KeyCode.RightArrow)) {
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) {
             transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z); // Face right
         } 
-        else if (Input.GetKey(KeyCode.LeftArrow)) {
+        else if (Input.GetKey(KeyCode.LeftArrow)|| Input.GetKey(KeyCode.A)) {
             transform.localScale = new Vector3(-Mathf.Abs(originalScale.x), originalScale.y, originalScale.z); // Face left
         }
     }
