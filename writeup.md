@@ -66,7 +66,9 @@
 
   We also changed the background of the level where the player falls in a hole because some of the feedback that we recieved discussed some confusion about where the character actually was on this level. In order to fix this issue, we changed the background of this scene to make it look more like the player was in a hole. We hoped that this would add more context as to where the player was at this level of the game. 
 
-  Another change that we made was making it so that the character would be able to switch directons if the player wanted to use WSD instead of the arrow keys. Some of the feedback that we recieved had expressed frustration that the character did not turn around if the player was using WSD instead the arrow keys. We were able to solve this issue in case the player wanted to use WSD instead of the arrow keys. 
+  Another change that we made was making it so that the character would be able to switch directons if the player wanted to use WSD instead of the arrow keys. Some of the feedback that we recieved had expressed frustration that the character did not turn around if the player was using WASD instead the arrow keys. We were able to solve this issue in case the player wanted to use WSD instead of the arrow keys. 
+
+  Additionally, we added a Physics2D Material to the player to prevent it from clinging to platforms. This material removes friction, allowing for smoother and more natural movement. To apply the material in Unity, we first created a new Physics2D Material in the Assets folder and set its Friction to 0 and Bounciness to 0. Then, we assigned this material to the player's Collider2D component in the Rigid Body component!
 
   Finally, the last change we made was having a restart button on the corner of the screen, to give the player an option on whether or not they wanted to restart the game at a random point to either change characters or just begin playing again. This change was slightly more difficult to make rather than just the text size and coloring of the panels, but we were successfully able to implement this change to give the player further autonomy in optimizing their player experience. 
 
