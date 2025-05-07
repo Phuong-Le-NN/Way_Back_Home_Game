@@ -2871,7 +2871,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panels:
   - {fileID: 1879050471}
-  - {fileID: 0}
   timerText: {fileID: 495632012}
   remainingTime: 90
   gameOverPanel: {fileID: 0}

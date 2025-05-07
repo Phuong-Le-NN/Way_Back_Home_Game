@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour
 				break;
 			}
 		}
-        if (remainingTime > 0)
+        if (remainingTime > 0 && panelOff == true)
         {
             remainingTime -= Time.deltaTime;
         }
