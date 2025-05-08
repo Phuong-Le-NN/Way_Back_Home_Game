@@ -55,8 +55,8 @@ public class Key2DoorSceneCtrller : MonoBehaviour {
                 int id = 0;
                 platform.SetPlatform(id, images[id]);
 
-                offsetX = Random.Range(4f, 6f);
-                offsetY = Random.Range(1.2f, 1.8f); 
+                offsetX = Random.Range(4f, 5.5f);
+                offsetY = Random.Range(1.2f, 1.5f); 
                 if ((end.transform.position.x > posX)){
                     posX = posX + offsetX;
                 }

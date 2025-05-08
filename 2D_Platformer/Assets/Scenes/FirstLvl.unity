@@ -588,8 +588,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: The path seems to be pretty bumpy! You may need to leap along the path!
-    Use the arrow keys to move left and right, and space to jump. Get to Arlo to
-    progress to the next level!
+    Use the arrow keys (<- or ->) to move left and right, and space to jump. Get
+    to Arlo to progress to the next level!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 62448cd6de05e4bda8773156e3864981, type: 2}
   m_sharedMaterial: {fileID: -2299836616540616997, guid: 62448cd6de05e4bda8773156e3864981, type: 2}
@@ -2066,7 +2066,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 53.1
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1

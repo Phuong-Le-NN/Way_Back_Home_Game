@@ -1773,7 +1773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f7685df290e4a43b7a5f1e37d01f22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverUI: {fileID: 0}
+  gameOverUI: {fileID: 1450644946}
 --- !u!4 &1036248317
 Transform:
   m_ObjectHideFlags: 0
@@ -2785,7 +2785,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 51.85
+  m_fontSize: 79.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2950,8 +2950,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 247223625}
-  - {fileID: 1879050472}
   - {fileID: 495632014}
+  - {fileID: 1879050472}
   - {fileID: 1450644947}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
