@@ -1277,8 +1277,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "         Dalmatians have longer legs for\n                     running
-    fater, but Corgis have a thick fur \n            coat to protect them from damage!"
+  m_text: "    Dalmatians have longer legs for\n                running fater, but
+    Corgis have a thick fur \n       coat to protect them from damage!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 62448cd6de05e4bda8773156e3864981, type: 2}
   m_sharedMaterial: {fileID: -2299836616540616997, guid: 62448cd6de05e4bda8773156e3864981, type: 2}
@@ -1680,7 +1680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '                     Choose Your Character!
+  m_text: '                Choose Your Character!
 
 
 
