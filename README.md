@@ -64,3 +64,18 @@ To try out *Ruff Road Home* on your local machine, follow these steps:
    ```
 
    We recommend playing in **full screen** :")
+
+
+## **Game Aesthetic**
+![Character Selection](./Game_Aesthetic/character-selection-scene.png)
+![How To play](./Game_Aesthetic/how-to-play.png)
+![Level 1](./Game_Aesthetic/level1.png)
+![Level 2](./Game_Aesthetic/level1_Arlo.png)
+![Level 2](./Game_Aesthetic/transition_lv1-to-lv2.png)
+![Level 2](./Game_Aesthetic/level2_gate_Arlo.png)
+![Level 2](./Game_Aesthetic/level2_key.png)
+![Transition](./Game_Aesthetic/transition_lv2-to-lv3.png)
+![Level 3](./Game_Aesthetic/level3.png)
+![Transition](./Game_Aesthetic/lv3-to-lv4-transition.png)
+![Level 4](./Game_Aesthetic/level4-squirrel.png)
+![Play Again](./Game_Aesthetic/play-again-panel.png)
